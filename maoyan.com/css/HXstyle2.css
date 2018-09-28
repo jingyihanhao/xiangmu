@@ -1,0 +1,130 @@
+
+.nav1-div {
+	background-color: #47464a;
+	height: 60px;
+	width: 100%;
+	min-width: 1200px;
+	text-align: center;
+	margin-top: 80px;
+}
+
+.nav1-div .nd-ul {
+	display: inline-block;
+	overflow: hidden;
+}
+
+.nav1-div .nd-ul li .active {
+	color: #ef4238;
+	position: relative;
+	cursor: default;
+}
+
+.nav1-div .nd-ul li {
+	display: inline-block;
+	float: left;
+}
+
+.nav1-div li,
+.nav1-div ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.nav1-div .nd-ul li .active:before {
+	content: "";
+	width: 2px;
+	height: 0;
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+	margin-left: -5px;
+	top: 53px;
+	border-bottom: 7px solid #fff;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-top: none;
+}
+
+.nav1-div .nd-ul li a {
+	display: block;
+	font-size: 16px;
+	color: #999;
+	height: 60px;
+	line-height: 60px;
+	padding: 0 40px;
+}
+
+.main-div {
+	margin-top: 50px;
+}
+
+.media-bottom-div span:nth-of-type(1) {
+	float: left;
+}
+
+.media-bottom-div span:nth-of-type(2) {
+	float: right;
+}
+
+.active11 {
+	border-color: #ef4238;
+	background-color: #ef4238;
+}
+
+.hot-pager {
+	text-align: center;
+}
+
+.list-pager {
+	list-style: none;
+}
+
+ul,
+ul li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.list-pager li.active {
+	border-color: #ef4238;
+	background-color: #ef4238;
+}
+
+.list-pager li {
+	display: inline-block;
+	height: 30px;
+	margin: 0 4px;
+	border: 1px solid #d8d8d8;
+	line-height: 30px;
+	text-align: center;
+	color: #999;
+}
+
+.list-pager li.active a {
+	color: #fff;
+}
+
+.list-pager a {
+	display: block;
+	padding: 0 12px;
+	color: #333;
+}
+
+.list-pager a {
+	font-size: 14px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a {
+	background-color: transparent;
+}
+
+
+/*.list-pager>.active {
+
+}*/

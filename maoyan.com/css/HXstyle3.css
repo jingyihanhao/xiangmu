@@ -1,0 +1,116 @@
+.latest-images-more {
+	display: block;
+	background-color: rgba(55, 55, 55, .5);
+	font-size: 14px;
+	color: #fff;
+	position: absolute;
+	right: 0;
+	top: 88px;
+	width: 120px;
+	height: 84px;
+	line-height: 84px;
+	text-align: center;
+}
+
+.nav1-div {
+	background-color: #47464a;
+	height: 60px;
+	width: 100%;
+	min-width: 1200px;
+	text-align: center;
+	margin-top: 80px;
+}
+
+.nav1-div .nd-ul {
+	display: inline-block;
+	overflow: hidden;
+}
+
+.nav1-div .nd-ul li .active {
+	color: #ef4238;
+	position: relative;
+	cursor: default;
+}
+
+.nav1-div .nd-ul li {
+	display: inline-block;
+	float: left;
+}
+
+.nav1-div li,
+.nav1-div ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.nav1-div .nd-ul li .active:before {
+	content: "";
+	width: 2px;
+	height: 0;
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+	margin-left: -5px;
+	top: 53px;
+	border-bottom: 7px solid #fff;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-top: none;
+}
+
+.nav1-div .nd-ul li a {
+	display: block;
+	font-size: 16px;
+	color: #999;
+	height: 60px;
+	line-height: 60px;
+	padding: 0 40px;
+}
+
+.container .row .col-xs-8 .col-xs-4 {
+	position: relative;
+}
+
+.bofang-div {
+	position: absolute;
+	left: 120px;
+	top: 50px;
+	color: #FEFEFE;
+}
+
+.pagination>.active>a {
+	z-index: 3;
+	color: #fff;
+	cursor: default;
+	border-color: #ef4238;
+	background-color: #ef4238;
+}
+
+.pagination>li {
+	margin-left: 10px;
+}
+
+.navigation {
+	text-align: center;
+}
+
+.pagination>li>a {
+	margin-left: 15px;
+}
+
+nav ul {
+	width: 730px;
+	text-align: center;
+}
+
+
+/*.aaaaa li{
+	display: inline-block;
+	height: 30px;
+	margin: 0 4px;
+	border: 1px solid #d8d8d8;
+	line-height: 30px;
+	text-align: center;
+	color: #999;
+}*/

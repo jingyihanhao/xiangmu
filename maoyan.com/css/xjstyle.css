@@ -1,0 +1,407 @@
+body,div,ul,li,h1,h2,h3,h4,h5{
+	padding: 0;
+	margin: 0;
+}
+.shouye{
+	width:1200px;
+	margin: 0 auto;
+}
+.banner{
+	margin-top: 80px;
+}
+.container{
+	width: 1000px;
+	margin-top: 80px;
+}
+.item{
+	position: relative;
+	width: 1200px;
+	height: 315px;
+	margin: 0 auto;
+	padding-left: 100px;
+	padding-right: 100px;
+	overflow: hidden;
+}
+.picture{
+	width: 100%;
+	height: 340px;
+}
+.picture a img{
+	width: 100%;
+	height: 309px;
+}
+.picture-1{
+	display: block;
+}
+.picture-2,.picture-3,.picture-4,.picture-5 {
+	display: none;
+}
+.left{
+	position: absolute;
+	left: 80px;
+	top: 35%;
+	width: 45px;
+	height: 70px;
+	background: none;
+	opacity: 0.8;
+	overflow: hidden;
+	
+}
+.right{
+	position: absolute;
+	top: 35%;
+	right: 80px;
+	width: 45px;
+	height: 70px;
+	background: none;
+	opacity: 0.8;
+	overflow: hidden;
+	
+}
+.slick-dots{
+	position: absolute;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	height: 27px;
+	list-style: none;
+	text-align: center;
+	top: 268px;
+	left: 0;
+	overflow: hidden;
+}
+.slick-dots li{
+	display: inline-block;
+	width:10px ;
+	height: 10px;
+	border-radius: 10px;
+	cursor: pointer;
+	border: 1 solid black;
+	background: gray;
+	margin: 10px;
+}
+.content{
+	width: 1000px;
+	height: 2300px;
+	position: relative;
+}
+.main{
+	width: 650px;
+	padding: 20px;
+}
+.aside{
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding:20px;
+	width:300px;
+}
+.panel-heading{
+	height: 50px;
+}
+.head{
+	display: inline-block;
+	float: left;
+	color: orangered;
+}
+.more{
+	display: inline-block;
+	float:right;
+	margin-top: 10px;
+	color: orangered;
+	
+}
+.more a{
+	text-decoration: none;
+	color: orangered;
+}
+.movie-list{
+	position: relative;
+	width: 650px;
+	height: 500px;
+	
+	
+}
+.movie{
+	display: inline-block;
+	height: 260px;
+}
+.move-picture{
+	width: 130px;
+	height: 179px;
+}
+.move-picture img{
+	width: 100%;
+	height: 100%;
+}
+.move-score{
+	position: absolute;
+	width: 30px;
+	top: 150px;
+	right: 35px;
+	overflow: hidden;
+}
+.integer{
+	color: gold;
+	font-size: 18px;
+}
+.fraction{
+	color: gold;
+	font-size: 14px;
+}
+.title{
+	position: absolute;
+	top: 150px;
+	left: 0;
+	width: 140px;
+	color: white;
+	font-size: 16px;
+	left: 20px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.buy{
+	width: 130px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	border: 1px solid gainsboro;
+}
+.buy a{
+	text-decoration: none;
+	color: red;
+}
+.top{
+	display: inline-block;
+	width: 270px;
+	height: 70px;
+}
+.top p{
+	color: red;
+}
+.top-p{
+	display: inline-block;
+	width: 180px;
+	height:220px;
+}
+.top-1{
+	position: absolute;
+	display: inline-block;
+	width: 240px;
+	text-align: left;
+	margin-left: 1em;
+}
+.tt{
+	font-size: 18px;
+	margin-top: 10px;
+	color: gray;
+}
+.top-p i{
+	color: orange;
+	font-size: 16px;
+}
+.top-2{
+	display: inline-block;
+	width: 300px;
+	height: 170px;
+	position: relative;
+    margin-top: 10px;
+}
+.panel{
+	width: 300px;
+	height: 500px;
+}
+.normal-link{
+	text-align: left;
+	display: inline-block;
+	width:300px ;
+	height: 40px;
+	line-height: 40px;
+}
+.normal-link i{
+	margin-top: 10px;
+	font-size: 20px;
+	color: gainsboro;
+	
+}
+.normal-link h5:nth-of-type(2){
+	color: red;
+}
+.normal-link h5:nth-of-type(3){
+	color: red;
+}
+.normal-link h5{
+	float: right;
+	margin-top: -15px;
+	color: red;
+}
+.normal-link h4{
+	margin-left: 25px;
+	margin-top:-31px;
+	
+}
+.head-2{
+	display: inline-block;
+	color: orange;
+	width: 300px;
+	height: 50px;
+}
+.more-2{
+	display: inline-block;
+	float:right;
+	margin-top: 10px;
+	color: blue;
+	
+}
+.buy-2{
+	width: 160px;
+	height: 25px;
+	text-align: left;
+	line-height: 25px;
+	color:orange;
+	
+}
+.buy-2 h5{
+    margin-left:10px;
+    line-height: 25px;
+    
+}
+.yushou{
+	height: 30px;
+	width: 130px;
+	display: inline-block;
+	line-height: 30px;
+	text-align: center;
+}
+.time{
+	text-align: center;
+	color: gray;
+}
+.yushou a{
+	width:50%;
+    text-decoration:none;
+    font-size: 14px;
+}
+.yugao{
+	float: left;
+	border: 1px solid gainsboro;
+	color: #999;
+	
+}
+.yumai{
+	float: right;
+	border: 1px solid gainsboro;
+	color: deepskyblue;
+}
+.movie.col-md-3{
+	height:300px ;
+}
+
+.head-3{
+	display: inline-block;
+	width: 40px;
+	height: 103px;
+	color: red;
+}
+.panel-heading-today{
+	height: 106px;
+	width: 360px;
+	border: 1px solid gainsboro;
+}
+.box{
+	position: relative;
+	width: 380px;
+	height: 115px;
+}
+.number{
+	position: absolute;
+	display: inline-block;
+	width: 300px;
+	height: 85px;
+	top: 0;
+	
+}
+.number p{
+	margin-left: 50px;
+	line-height: 85px;
+	width: 300px;
+	color: red;
+	font:bolder;
+	font-size: 30px;
+    font-weight: 700;
+}
+.more-3{
+	float: right;
+	font-size: 10px;
+	font-weight: 10;
+	color:red;
+}
+.ontime{
+	width: 300px;
+	color: gray;
+	margin-left: 40px;
+	margin-top: -10px;
+}
+.panel-heading-ex{
+	margin-top: 100px;
+}
+.panel-heading-fur{
+	margin-top: 50px;
+	width: 300px;
+	height: 50px;
+	
+}
+.bb{
+	float: right;
+	margin-top: -20px;
+	color: orange;
+}
+.movie-box1{
+	width: 170px;
+	height: 200px;
+}
+.movie-box2{
+	position: absolute;
+	width: 170px;
+	height: 200px;
+	top: 0;
+	right: -60px;
+	margin-right: 20px;
+}
+.movie-6{
+	margin-left: 10px;
+	width: 170px;
+    height: 40px;
+    display: inline-block;
+}
+.movie-6 p{
+	color: orange;
+}
+.movie-weilai{
+	margin-left: 10px;
+	width: 170px;
+	height: 40px;
+	display: inline-block;
+}
+.movie-weilai p{
+	color: orange;
+}
+.panel-ex{
+	width: 300px;
+	height: 700px;
+}
+.normal-link-1 h5{
+	float: right;
+	margin-top: -15px;
+	color: orange;
+}
+.normal-link-1 h4{
+	margin-left: 25px;
+	margin-top:-31px;
+	
+}
+.head-4{
+	color:orange;
+}

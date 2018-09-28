@@ -1,0 +1,121 @@
+.nav1-div {
+	background-color: #47464a;
+	height: 60px;
+	width: 100%;
+	min-width: 1200px;
+	text-align: center;
+	margin-top: 80px;
+}
+
+.nav1-div .nd-ul {
+	display: inline-block;
+	overflow: hidden;
+}
+
+.nav1-div .nd-ul li .active {
+	color: #ef4238;
+	position: relative;
+	cursor: default;
+}
+
+.nav1-div .nd-ul li {
+	display: inline-block;
+	float: left;
+}
+
+.nav1-div li,
+.nav1-div ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.nav1-div .nd-ul li .active:before {
+	content: "";
+	width: 2px;
+	height: 0;
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+	margin-left: -5px;
+	top: 53px;
+	border-bottom: 7px solid #fff;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-top: none;
+}
+
+.nav1-div .nd-ul li a {
+	display: block;
+	font-size: 16px;
+	color: #999;
+	height: 60px;
+	line-height: 60px;
+	padding: 0 40px;
+}
+
+.container .col-xs-4 {
+	padding: 0px;
+}
+
+.container .col-xs-12 {
+	padding: 0px;
+}
+
+.container .col-xs-7 {
+	padding: 0px;
+}
+
+.changeRed:hover {
+	color: orangered;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.col-xs-4 img {
+	width: 97%;
+}
+
+.pagination>.active>a {
+	z-index: 3;
+	color: #fff;
+	cursor: default;
+	border-color: #ef4238;
+	background-color: #ef4238;
+}
+
+.pagination>li {
+	margin-left: 10px;
+}
+
+.navigation {
+	text-align: center;
+}
+
+.pagination>li>a {
+	margin-left: 15px;
+}
+
+nav ul {
+	width: 730px;
+	text-align: center;
+}
+
+.latest-images-more1 {
+	display: block;
+	background-color: rgba(55, 55, 55, .5);
+	font-size: 16px;
+	color: #fff;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 248px;
+	height: 138px;
+	line-height: 125px;
+	text-align: center;
+}
+
+.latest-images-more1:hover {
+	background-color: rgba(8, 8, 8, .5);
+	color: #fff;
+}

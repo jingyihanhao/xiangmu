@@ -1,0 +1,90 @@
+body,div,h1,h2,h3,h4,h5{
+	margin: 0;
+	padding: 0;
+}
+.island-box{
+	margin: 0 auto;
+	width:1200px;
+	height: 605px;
+}
+.header-logo{
+	position: relative;
+    width: 980px;
+    height: auto;
+    margin: 40px auto 30px;
+}
+.maoyanlogo img{
+	width: 350px;
+}
+.island-body{
+	width:1200px;
+	height: 370px;
+}
+.content-box{
+	width:1200px;
+	height: 400px;
+	position: relative;
+}
+.information{
+	position: absolute;
+	top: 50px;
+	left: 700px;
+	width: 310px;
+	height: 310px;
+	
+}
+
+.zhanghao,.num,.pas,.check,.forget,.btn,.help{
+	width: 270px;
+	height: 45px;
+}
+.zhanghao{
+	color: gray;
+}
+.zhanghao a{
+	float: right;
+	text-decoration: none;
+	color: gray;
+}
+.num input{
+	width: 270px;
+	height: 35px;
+}
+.pas input{
+	width: 270px;
+	height: 35px;
+}
+button{
+	background: red;
+	color: white;
+	width: 270px;
+	height: 33px;
+	margin-left: -10px;
+	border: none;
+}
+.zhanghao i img{
+	width: 10px;
+	height: 15px;
+	margin-left: 10px;
+}
+.check a{
+	float: right;
+	text-decoration: none;
+	color: red;
+}
+footer{
+	margin: 0 auto 30px;
+    clear: both;
+    width: 980px;
+    height: 18px;
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+}
+.help a{
+	text-decoration: none;
+	color: red;
+}
+.btn{
+	border:none
+}

@@ -1,0 +1,325 @@
+.nav1-div {
+	background-color: #47464a;
+	height: 60px;
+	width: 100%;
+	min-width: 1200px;
+	text-align: center;
+	margin-top: 80px;
+
+}
+
+.nav1-div .nd-ul {
+	display: inline-block;
+	overflow: hidden;
+}
+
+.nav1-div .nd-ul li .active {
+	color: #ef4238;
+	position: relative;
+	cursor: default;
+}
+
+.nav1-div .nd-ul li {
+	display: inline-block;
+	float: left;
+}
+
+.nav1-div li,
+.nav1-div ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.nav1-div .nd-ul li .active:before {
+	content: "";
+	width: 2px;
+	height: 0;
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+	margin-left: -5px;
+	top: 53px;
+	border-bottom: 7px solid #fff;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-top: none;
+}
+
+.nav1-div .nd-ul li a {
+	display: block;
+	font-size: 16px;
+	color: #999;
+	height: 60px;
+	line-height: 60px;
+	padding: 0 40px;
+}
+
+.left-newst-news-div h4 {
+	width: 100%;
+	color: red;
+	font-size: 26px;
+	margin-left: -15px;
+}
+
+.left-newst-news-div .row .col-xs-4 {
+	padding: 0px;
+	padding-bottom: 15px;
+}
+
+.left-newst-news-div img {
+	width: 90%;
+}
+
+h4 a {
+	float: right;
+	color: red;
+	font-size: 18px;
+	margin-top: 8px;
+}
+
+.lnnd-p-div {
+	padding-left: 10px;
+}
+
+.lnnd-see-div {
+	margin-top: -5px;
+}
+
+.lnnd-see-div>span:nth-of-type(1) {
+	font-size: 12px;
+	color: #989898;
+}
+
+.lnnd-see-div span:nth-of-type(2) {
+	float: right;
+	color: #989898;
+	margin-right: 25px;
+	font-size: 12px;
+}
+
+.rhnd-small-div .left-div {
+	float: left;
+}
+
+.rhnd-small-div .right-div {
+	float: left;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.rhnd-small-div {
+	position: relative;
+	overflow: hidden;
+}
+
+.right-hottest-news-div h4 {
+	width: 100%;
+	color: red;
+	font-size: 26px;
+}
+
+.num-div {
+	position: absolute;
+	bottom: 0px;
+	/*left: 20px;*/
+	color: #FEFEFE;
+	background: #EE4238;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.rhnd-small-div .left-div1 {
+	position: absolute;
+	top: 19px;
+	left: 0px;
+	font-size: 18px;
+	color: #EE4238;
+}
+
+.rhnd-small-div .right-div1 {
+	float: left;
+	margin-top: 20px;
+	margin-left: 40px;
+}
+
+.rhnd-small-div p {
+	margin: 0px;
+}
+
+.left-newst-news-div .row .col-sm-8 {
+	padding: 0px;
+}
+
+.left-newst-news-div .row .col-sm-4 {
+	padding: 0px;
+}
+
+.pre-div .left-newst-news-div .row:nth-of-type(1) .col-sm-8 {
+	position: relative;
+}
+
+.pre-div .left-newst-news-div .row:nth-of-type(1) .col-sm-4 {
+	position: relative;
+}
+
+.xm-play-div {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	color: #FEFEFE;
+}
+
+.xm-play-div span:nth-of-type(1) {
+	float: left;
+	margin-left: 30px;
+}
+
+.xm-play-div span:nth-of-type(2) {
+	float: right;
+	margin-right: 20px;
+	margin-bottom: 8px;
+}
+
+.pre-div .left-newst-news-div .row:nth-of-type(1) .col-sm-8 img {
+	width: 100%;
+}
+
+.pre-div .left-newst-news-div .row a {
+	color: #FEFEFE;
+}
+
+.pre-div .left-newst-news-div .row:nth-of-type(1) .col-sm-4 img {
+	float: right;
+	width: 95%;
+}
+
+.img-top {
+	padding-top: 20px;
+}
+
+.pre-div .left-newst-news-div .row:nth-of-type(2) .col-sm-8 img {
+	width: 101%;
+}
+
+.pre-div .left-newst-news-div .row:nth-of-type(2) .col-sm-6 {
+	padding: 0px;
+}
+
+.pre-div .left-newst-news-div .row:nth-of-type(2) .col-sm-6 img {
+	width: 95%;
+	float: right;
+	margin-top: 11px;
+}
+
+.pre-div .left-newst-news-div .row:nth-of-type(2) .col-sm-6:nth-of-type(1) img {
+	float: left;
+}
+
+.pre-div .left-newst-news-div .row:nth-of-type(2) .col-sm-4 img {
+	width: 95%;
+}
+
+.pre-div .left-newst-news-div .row:nth-of-type(2) .col-sm-4 img:nth-of-type(1) {
+	margin-top: 10px;
+	float: right;
+}
+
+.changeRed:hover>p {
+	color: orangered;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.changePoiter:hover {
+	cursor: pointer;
+}
+
+.media-left {
+	position: relative;
+}
+
+.lastest-photo-div .col-sm-6 {
+	padding-right: 0px;
+}
+
+.lastest-photo-div>.left-newst-news-div>.row:nth-of-type(1)>.col-sm-6 .col-sm-4 img {
+	width: 97%;
+}
+
+.lastest-photo-div>.left-newst-news-div>.row:nth-of-type(1)>.col-sm-6 .col-sm-4:nth-of-type(2) {
+	padding-bottom: 15px;
+}
+
+.lastest-photo-div>.left-newst-news-div>.row:nth-of-type(2)>.col-sm-6 .col-sm-4 img {
+	width: 97%;
+}
+
+.lastest-photo-div>.col-sm-6 {
+	position: relative;
+}
+
+.bot-div {
+	position: absolute;
+	top: 180px;
+}
+
+.lastest-photo-div h4 {
+	margin-left: 3px;
+}
+
+.chanColor:hover {
+	background-color: rgba(55, 55, 55, .5);
+}
+
+.latest-images-more {
+	display: block;
+	background-color: rgba(55, 55, 55, .5);
+	font-size: 14px;
+	color: #fff;
+	position: absolute;
+	right: 0;
+	top: 0px;
+	width: 109px;
+	height: 75px;
+	line-height: 84px;
+	text-align: center;
+}
+
+.latest-images-more:hover {
+	background-color: rgba(8, 8, 8, .5);
+}
+
+.latest-images-more1 {
+	display: block;
+	background-color: rgba(55, 55, 55, .5);
+	font-size: 14px;
+	color: #fff;
+	position: absolute;
+	right: 2px;
+	top: 12px;
+	width: 109px;
+	height: 75px;
+	line-height: 84px;
+	text-align: center;
+}
+
+.latest-images-more1:hover {
+	background-color: rgba(8, 8, 8, .5);
+}
+
+.textNoneDe{
+	text-decoration: none;
+}
+/*上面都是第一个的*/
+
+
+/*上面都是第一个的*/
+
+
+/*上面都是第一个的*/
+
+
+/*上面都是第一个的*/

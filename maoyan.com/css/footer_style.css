@@ -1,0 +1,31 @@
+footer{
+    background-color: #262626;
+    padding: 56px 0;
+    margin: 0 auto;
+    min-width: 1200px;
+    margin-top: 82px;
+}
+footer p{
+	color:#666;
+}
+.friendly-links-1{
+	padding-right: 5px;
+	border: 0;
+	border-right: 1px solid #eb3327;
+}
+
+.btn-friendly-links{
+	color:#eb3327;
+	text-decoration: none;
+}
+.btn-friendly-links:hover{
+	cursor: pointer;
+	color:#eb3327;
+	text-decoration: none;
+}
+.wangluobeian{
+	color:#666;
+}
+.wangluobeian:hover{
+	color:#666;
+}
