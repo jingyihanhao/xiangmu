@@ -70,6 +70,45 @@ body{
     overflow: hidden;
     height: 490px;
 }
+.case_list ul li div.pic{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.case_list ul li div.pic a img{
+    width: 100%;
+    vertical-align: bottom;
+}
+.case_list ul li div.pic .bg_black{
+    width: 100%;
+    background: #000;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+.case_list ul li div.pic .bg_pic{
+    margin: 0 5%;
+    width: 90%;
+    height: 100%;
+    background: url('../../img/lh_img/bg-4.png') center no-repeat;
+    position: absolute;
+    left: 0;
+    top: -100%;
+    background-size: 98%;
+}
+.case_list ul li div.title{
+    text-align: center;
+    padding: 3%;
+    font-size: 1.375em;
+}
+.case_list ul li div.con{
+    text-align: center;
+    line-height: 200%;
+    font-size: 1.275em;
+}
+
 
 .end_title{
     width: 26%;
