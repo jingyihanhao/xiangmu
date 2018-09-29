@@ -5,11 +5,10 @@
 $.ajax({
     type:'get',
     url:'https://jingyihanhao.github.io/xiangmu/sanyalove.net/json/hoteldata.json',
-<<<<<<< HEAD
+
     /*由此可见webstrom对于php文件并没有判断行为的出现*/
-=======
+
     /*鐢辨鍙webstrom瀵逛簬php鏂囦欢骞舵病鏈夊垽鏂涓虹殑鍑虹幇*/
->>>>>>> 5fdbb466b7ae5b3e22191bcc4e2f1084c2bc153e
     success:function (res) {
         function adddata(id_now){
             $('.hotel_box').eq(id_now).children('.hotel_title_box').children('.title_name').html(res.title[id_now]);
@@ -42,11 +41,6 @@ $.ajax({
             $('.hotel_topnav a').eq(i).attr('href','#hotel'+(i+1));
             $('.hotel_box').eq(i).attr('id','hotel'+(i+1));
             adddata(i);
-<<<<<<< HEAD
-            
-=======
-            console.log(adddata(i));
->>>>>>> 5fdbb466b7ae5b3e22191bcc4e2f1084c2bc153e
         }
     }
 })
