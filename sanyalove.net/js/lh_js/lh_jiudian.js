@@ -4,7 +4,7 @@
 
 $.ajax({
     type:'get',
-    url:'https://github.com/jingyihanhao/xiangmu/blob/master/sanyalove.net/json/hoteldata.json',
+    url:'https://jingyihanhao.github.io/xiangmu/sanyalove.net/json/hoteldata.json',
     /*由此可见webstrom对于php文件并没有判断行为的出现*/
     success:function (res) {
         function adddata(id_now){
