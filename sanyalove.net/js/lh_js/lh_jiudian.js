@@ -3,8 +3,8 @@
  */
 
 $.ajax({
-    type:'post',
-    url:'../json/hoteldata.json',
+    type:'get',
+    url:'https://jingyihanhao.github.io/xiangmu/sanyalove.net/json/hoteldata.json',
     /*由此可见webstrom对于php文件并没有判断行为的出现*/
     success:function (res) {
         function adddata(id_now){
@@ -38,6 +38,7 @@ $.ajax({
             $('.hotel_topnav a').eq(i).attr('href','#hotel'+(i+1));
             $('.hotel_box').eq(i).attr('id','hotel'+(i+1));
             adddata(i);
+            
         }
     }
 })
