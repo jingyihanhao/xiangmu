@@ -27,7 +27,6 @@ $('.case_topnav a').click(function () {
                     pbox.children('.title').html(zuopinshow[i].zuopinname);
                     pbox.children('.con').html(pcon);
                     $('.case_list>ul>div').append(pbox);
-                    console.log(1);
                 }
                 else{
                     var pboxanother = $('.case_list>ul>div>li').eq(0).clone(true);
@@ -35,7 +34,6 @@ $('.case_topnav a').click(function () {
                     pboxanother.children('.title').html(zuopinshow[i].zuopinname);
                     pboxanother.children('.con').html(pcon);
                     $('.case_list>ul>div li').eq(-1).after(pboxanother);
-                    console.log(2);
                 }
             }
 
