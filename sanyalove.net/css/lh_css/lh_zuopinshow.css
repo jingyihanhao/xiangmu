@@ -28,17 +28,14 @@ body{
 }
 .show_pic .pic{
     display: inline-block;
-    width: 50%;
+    width: 100%;
 }
 .show_pic .pic img{
     width: 100%;
 }
 .show_pic .con{
     display: inline-block;
-    float: right;
-    width: 50%;
-    padding: 5%;
-    padding-left: 8%;
+    width: 100%;
     box-sizing: border-box;
 }
 .con .con_t{
@@ -60,7 +57,7 @@ body{
     padding: 3% 15%;
 }
 .lunbo_part{
-    margin: 0% 15%;
+    margin: 0% 5%;
 }
 .show_lunbo{
     width: 100%;
@@ -118,4 +115,23 @@ body{
     letter-spacing: 4px;
 }
 
-@media screen and (min-width: 680px){}
+@media screen and (min-width: 680px){
+    .show_pic .pic{
+        display: inline-block;
+        width: 50%;
+    }
+    .show_pic .pic img{
+        width: 100%;
+    }
+    .show_pic .con{
+        display: inline-block;
+        float: right;
+        width: 50%;
+        padding: 5%;
+        padding-left: 8%;
+        box-sizing: border-box;
+    }
+    .lunbo_part{
+        margin: 0% 15%;
+    }
+}

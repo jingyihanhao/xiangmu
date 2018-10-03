@@ -24,8 +24,7 @@ body{
     letter-spacing: 4px;
 }
 .bg_box{
-    background: url('../../img/lh_img/line-3.png') center repeat-y;
-    margin: 3% 15%;
+    margin: 3% 5%;
 }
 .bg_box .title{
     text-align: center;
@@ -46,7 +45,7 @@ body{
     color: #AC9628;
 }
 .text{
-    width: 46%;
+    width: 100%;
     padding: 3%;
 }
 
@@ -97,4 +96,14 @@ body{
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 4px;
+}
+@media screen and (min-width: 680px){
+    .bg_box{
+        background: url('../../img/lh_img/line-3.png') center repeat-y;
+        margin: 3% 15%;
+    }
+    .text{
+        width: 46%;
+        padding: 3%;
+    }
 }
