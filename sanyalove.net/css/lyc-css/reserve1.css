@@ -74,62 +74,64 @@ p {
 form{
 	margin:3% auto;
 	margin-top: 5%;
-	width: 800px;
+	width: 100%;
 	overflow: hidden;
 }
 form ul{
-	width: 100%;
+  
+	overflow: hidden;
 }
 form ul li{
-	width: 50%;
+	width: 40%;
 	float: left;
+	margin-left: 8%;
 	margin-bottom: 3%;
+	
+}
+
+.input-group input{
+	float: left;
+	width:400%;
+	height: 40px;
 	
 }
 .con1{
 	border-top: 1px dashed darkgoldenrod;
 	height: 20px;
-	width: 90%;
+	width: 100%;
 	font-size: 12px;
    
 }
 .con{
 	border-top: 1px dashed darkgoldenrod;
-	width: 90%;
+	width: 100%;
 	font-size: 12px;
+	height: 40px;
+
 }
 
-.input-group input{
-	float: left;
-	width: 320px;
-	height: 40px;
-	
-}
 .five{
 	float: left;
-	width: 94%;
+	width: 90%;
 	height: 30px;
 }
-.five1{
-	width: 95%;
-}
-.t5{
-	width: 100%;
-}
-
 .input-group .main{
 	float: left;
-	width: 375%;
+	width: 284%;
 	height: 40px;
 }
-.t8{
-	width: 100%;
+.five1{
+	width: 88%;
 }
 textarea{
-	width: 95%;
+	width: 84%;
+}
+.t5,.t8{
+	width: 100%;
 }
 .col{
 	margin-left: -15px;
+	
 }
 .col span{
 	height: 30px;
@@ -154,12 +156,14 @@ textarea{
 .menu li{
 	width: 100%;
 }
+
+select{
+	width: 400%;
+	height: 40px;
+}
 .t9{
 	width: 100%;
-}
-select{
-	width: 310px;
-	height: 40px;
+	margin-left: 0;
 }
 .find{
 	display: block;
@@ -172,47 +176,96 @@ select{
 	font-size: 20px;
 	line-height: 40px;
 }
-@media (max-width:680px ) {
-	
-	ul {
-	width: 100%;
+.input-group .form{
+	width:130%;
 }
-ul li{
+@media (max-width:680px ) {
+form{
+	width: 100%;
+
+}
+form ul li {
 	width: 100%;
 	margin-bottom: 3%;
+	float: none;
 	
 }
-.input-group .main{
 
-	width:43% ;
+.input-group input{
+	float: left;
+	width:90%;
 	height: 40px;
-}
-.col{
-	width:49% ;
-}
-.coll{
-   width: 100%;
-}
-.t8{
-	width: 100%;
-}
-textarea{
-	width: 45%;
+	
 }
 .con1{
 	border-top: 1px dashed darkgoldenrod;
 	height: 20px;
-	width: 45%;
+	width: 100%;
 	font-size: 12px;
    
 }
 .con{
 	border-top: 1px dashed darkgoldenrod;
-	width: 45%;
+	width: 100%;
 	font-size: 12px;
+	height: 40px;
+
+}
+
+.five{
+	float: left;
+	width: 90%;
+	height: 30px;
+}
+.input-group .main{
+	float: left;
+	width: 90%;
+	height: 40px;
+}
+.five1{
+	width: 100%;
+}
+textarea{
+	width:90%;
+}
+.t5,.t8{
+	width: 100%;
+}
+.col{
+	margin-left: -15px;
+	
+}
+.col span{
+	height: 30px;
+
+}
+.menu{
+	width: 50%;
+}
+.click{
+	width: 50%;
+	background: white;
+}
+.choose{
+	float: right;
+		
+}
+.choose1{
+	float: left;
+	color:gray;
+		
+}
+.menu li{
+	width: 50%;
+}
+
+select{
+	width: 90%;
+	height: 40px;
 }
 .t9{
-	width:45%;
+	width: 100%;
+	margin-left: 0;
 }
 .find{
 	display: block;
@@ -221,13 +274,10 @@ textarea{
 	width: 150px;
 	border: 1px solid gray;
 	cursor: pointer;
-  margin: 0 auto;
+	margin: 0 auto;
 	font-size: 20px;
 	line-height: 40px;
 }
-.title2 {
-	width: 100%;
-   
-	
-}	
+.input-group .form{
+	width:90%;
 }
