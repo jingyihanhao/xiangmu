@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, minimum-scale=0.1">
+		<title>天气</title>
+		<style>
+			body{
+				background: linear-gradient(180deg,#0d21d1,#00e5ff)no-repeat;
+				font-size: 62.5%;
+			}
+			.main_today{
+				width: 80%;
+				margin: 0 auto;
+				color: #FFFFFF;
+				overflow: hidden;
+			}
+			.main_today h1{
+				font-size:2em;
+			}
+			.main_today div{
+				text-align: center;
+				width: 33.33%;
+				float: left;
+			}
+			.main_today div h3{
+				font-size: 1.4em;
+			}
+			.main_more5{
+				width: 80%;
+				margin: 0 auto;
+			}
+			.main_more5 span{
+				font-size: 1.6em;
+				font-weight: bolder;
+			}
+			.main_more5 div{
+				text-align: center;
+				float: left;
+				width: 50%;
+			}
+			.main_more5 div:nth-of-type(1){
+				display: none;
+			}
+		</style>
+	</head>
+	<body>
+	<!--作者：刘昊；
+	时间：18.10.09；
+	描述：天气；-->
+	<div class="main_today">
+		<h1></h1>
+		<h1></h1>
+		<div>
+			<h3>凌晨dawn</h3>
+			<h5></h5>
+			<h5></h5>
+			<h5></h5>
+			<h5></h5>
+		</div>
+		<div>
+			<h3>白天day</h3>
+			<h5></h5>
+			<h5></h5>
+			<h5></h5>
+			<h5></h5>
+		</div>
+		<div>
+			<h3>夜间night</h3>
+			<h5></h5>
+			<h5></h5>
+			<h5></h5>
+			<h5></h5>
+		</div>
+	</div>
+	<div class="main_more5">
+		<div>
+			<span></span>
+			<p></p>
+			<p></p>
+			<p></p>
+		</div>
+	</div>
+	</body>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+	<script>
+		var height
+		function __jsonp21__(res) {
+            var todayht = {
+                today_dawn:$('.main_today').children('div').eq(0),
+                today_day:$('.main_today').children('div').eq(1),
+                today_night:$('.main_today').children('div').eq(2)
+            }
+		    console.log(res.weather.length);
+            $('.main_today').find('h1').eq(0).html('天气地址：'+res.area[0][0]+'省 '+res.area[1][0]+'市 '+res.area[2][0]+'县（区） ');
+            $('.main_today').find('h1').eq(1).html('天气最新发布时间：'+res.pubdate + '&nbsp;&nbsp;&nbsp;&nbsp;' + res.pubtime);
+			for(var i=0;i<res.weather.length;i++){
+                var todayweather = res.weather[i].info;
+			    if(i == 0){
+                    todayht.today_dawn.children('h5').eq(1).html(' 天气：' + todayweather.dawn[1]);
+                    todayht.today_dawn.children('h5').eq(2).html(' 气温：' + todayweather.dawn[2]);
+                    todayht.today_dawn.children('h5').eq(3).html(' 风向：' + todayweather.dawn[3]);
+                    todayht.today_dawn.children('h5').eq(4).html(' 风强：' + todayweather.dawn[4]);
+
+                    todayht.today_day.children('h5').eq(1).html(' 天气：' + todayweather.day[1]);
+                    todayht.today_day.children('h5').eq(2).html(' 气温：' + todayweather.day[2]);
+                    todayht.today_day.children('h5').eq(3).html(' 风向：' + todayweather.day[3]);
+                    todayht.today_day.children('h5').eq(4).html(' 风强：' + todayweather.day[4]);
+
+                    todayht.today_night.children('h5').eq(1).html(' 天气：' + todayweather.night[1]);
+                    todayht.today_night.children('h5').eq(2).html(' 气温：' + todayweather.night[2]);
+                    todayht.today_night.children('h5').eq(3).html(' 风向：' + todayweather.night[3]);
+                    todayht.today_night.children('h5').eq(4).html(' 风强：' + todayweather.night[4]);
+
+				}
+				else{
+                    var divo = $('.main_more5').children('div').eq(0).clone();
+                    divo.find('span').html(res.weather[i].date);
+                    divo.find('p').eq(0).html('凌晨， 天气：' + res.weather[i].info.dawn[1]
+                        +'， &nbsp;&nbsp;&nbsp;&nbsp;气温 ：'+res.weather[i].info.dawn[2]
+                        +'， &nbsp;&nbsp;&nbsp;&nbsp;风向 ：'+res.weather[i].info.dawn[3]
+                        +'， &nbsp;&nbsp;&nbsp;&nbsp;风强 ：'+res.weather[i].info.dawn[4]
+                    );
+                    divo.find('p').eq(1).html('白天， 天气：' + res.weather[i].info.day[1]
+                        +'， &nbsp;&nbsp;&nbsp;&nbsp;气温 ：'+res.weather[i].info.day[2]
+                        +'， &nbsp;&nbsp;&nbsp;&nbsp;风向 ：'+res.weather[i].info.day[3]
+                        +'， &nbsp;&nbsp;&nbsp;&nbsp;风强 ：'+res.weather[i].info.day[4]
+                    );
+                    divo.find('p').eq(2).html('夜间， 天气：' + res.weather[i].info.night[1]
+                        +'， &nbsp;&nbsp;&nbsp;&nbsp;气温 ：'+res.weather[i].info.night[2]
+                        +'， &nbsp;&nbsp;&nbsp;&nbsp;风向 ：'+res.weather[i].info.night[3]
+                        +'， &nbsp;&nbsp;&nbsp;&nbsp;风强 ：'+res.weather[i].info.night[4]
+                    );
+                    $('.main_more5').append(divo);
+				}
+            }
+        }
+	</script>
+	<script src="https://cdn.weather.hao.360.cn/sed_api_weather_info.php?code=101090812&param=pm25&v=1&app=hao360&_jsonp=__jsonp21__&t=2565092"></script>
+</html>
