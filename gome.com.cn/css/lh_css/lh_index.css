@@ -1,0 +1,50 @@
+
+body{
+    min-width: 1200px;
+}
+.gome-head{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    height: 120px;
+    vertical-align: middle;
+}
+.gome-head #logo{
+    float: left;
+    margin: 32px 10px 0 0;
+}
+.gome-head #logo a{
+    display: block;
+    width: 125px;
+    height: 56px;
+    background: url('../../img/lh_img/logo.png') 0 0 no-repeat;
+    text-indent: -99px;
+    overflow: hidden;
+}
+.category-box{
+    height: 40px;
+    border-bottom: 1px solid #dd00a7;
+    background: #f8f8f8;
+}
+.category-main{
+    height: 40px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.sidecategory{
+    position: relative;
+}
+.sidecategory h2{
+    width: 200px;
+    height: 38px;
+    background: #f1f1f1;
+    float: left;
+    opacity: .9;
+    line-height: 40px;
+    color: #585858;
+    font-family: 'Microsoft YaHei';
+    font-weight: 700;
+    font-size: 15px;
+    padding-left: 15px;
+}
+
