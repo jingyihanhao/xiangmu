@@ -21,6 +21,13 @@ body{
     text-indent: -99px;
     overflow: hidden;
 }
+.gome-head #topSearch{
+    position: absolute;
+    width: 500px;
+    top: 32px;
+    left: 385px;
+    z-index: 91;
+}
 .category-box{
     height: 40px;
     border-bottom: 1px solid #dd00a7;
