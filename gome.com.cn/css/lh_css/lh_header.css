@@ -64,6 +64,30 @@
 
 #gome-user{
     margin-right: 12px;
+    width: 80px;
+}
+#gome-user .gome-user{
+    padding: 10px 15px;
+    width: 290px;
+    height: auto;
+    border: 1px solid #e6e6e6;
+
+    top: 30px;
+    background: #fff;
+    left: 0;
+    overflow: hidden;
+}
+.gome-user #user-name{
+    padding: 5px 0 20px;
+    overflow: hidden;
+}
+.gome-user #user-name i{
+    background-position: 0 -337px;
+    float: left;
+    position: static;
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
 }
 #loginDiv-link b{
     padding: 0 20px 0 0;
@@ -91,9 +115,6 @@
 #gome-link i{
     display: none;
 }
-#gome-user b{
-    padding-left: 29px;
-}
 
 #gome-service b em {
     transform: scale(0.9);
@@ -117,3 +138,211 @@
     height: 20px;
     top: 0;
 }
+.gome-head{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    height: 120px;
+    vertical-align: middle;
+}
+.gome-head #logo{
+    float: left;
+    margin: 32px 10px 0 0;
+}
+.gome-head #logo a{
+    display: block;
+    width: 125px;
+    height: 56px;
+    background: url('../../img/lh_img/logo.png') 0 0 no-repeat;
+    text-indent: -99px;
+    overflow: hidden;
+}
+.gome-head #topSearch{
+    position: absolute;
+    width: 500px;
+    top: 32px;
+    left: 385px;
+    z-index: 91;
+}
+#topSearchHover{
+    border: 1px solid #dd00a7;
+    position: relative;
+    font-size: 14px;
+    height: 30px;
+    background: #fff;
+}
+#topSearchHover .findmain{
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    color: #A5A5A5;
+    float: left;
+    width: 62px;
+    height: 30px;
+    line-height: 30px;
+    border-right: 1px solid #dd00a7;
+}
+#topSearchHover .findmain span{
+    padding-left: 10px;
+}
+#topSearchHover .findmain i{
+    position: absolute;
+    width: 11px;
+    height: 7px;
+    right: 9px;
+    top: 11px;
+    background: url('../../img/lh_img/ui.png') -145px -1469px;
+}
+#topSearchHover #input_keywords{
+    outline: none;
+    border: none;
+    width: 310px;
+    padding: 5px 5px 5px 10px;
+    line-height: 20px;
+    float: left;
+    font-size: 14px;
+    font-family: arial;
+    color: #5E5E5E;
+    background-color: transparent;
+}
+#input_keywords::-webkit-input-placeholder{
+    color: #bbbbbb;
+}
+#topSearchHover button{
+    width: 90px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    float: right;
+    display: inline;
+    background: #dd00a7;
+    font: 16px/30px 'microsoft yahei';
+    color: #fff;
+    letter-spacing: 2px;
+    text-indent: 0;
+}
+#topSearchHover .voice-search{
+    margin-right: 3px;
+    opacity: .55;
+    filter: alpha(opacity=55);
+    float: right;
+    padding: 5px 0;
+    cursor: pointer;
+    width: 15px;
+    height: 20px;
+    background: url('../../img/lh_img/sounds.png') no-repeat no-repeat center;
+    background-size: 13px 19px;
+}
+
+#topSearch .hotkeyword a{
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 5px;
+    line-height: 14px;
+    color: #A5A5A5;
+    font: 400 12px/30px Arial,"Microsoft YaHei"
+}
+#topSearch .hotkeyword a.highlight{
+    color: #f5004b;
+}
+.gome-head .shop_car_none{
+    position: absolute;
+    right: 0;
+    top: 32px;
+    z-index: 92;
+    width: 240px;
+}
+.shop_car_box .car{
+    position: absolute;
+    width: 27px;
+    height: 20px;
+    background: url('../../img/lh_img/ui.png') -100px -701px;
+    top: 11px;
+    left: 10px;
+}
+.shop_car_box .shop_num{
+    position: absolute;
+    height: 18px;
+    line-height: 18px;
+    padding: 0 3px;
+    top: -18px;
+    min-width: 14px;
+    text-align: center;
+    left: 15px;
+    background-color: #A5A5A5;
+    color: #FFF;
+    font-weight: 700;
+    font: 12px/1.5 arial,"\65b0\5b8b\4f53";
+}
+
+.shop_car_box .shop_num i{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 4px dashed;
+    border-color: transparent transparent transparent #A5A5A5;
+    border-right: 0;
+    border-left-style: solid;
+    overflow: hidden;
+    bottom: -4px;
+    left: 5px;
+}
+.shop_car_box #hdrcarttext{
+    color:#5E5E5E ;
+}
+.shop_car_box a b{
+    z-index: 96;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 4px dashed;
+    border-color: #5E5E5E transparent transparent;
+    border-bottom: 0;
+    border-top-style: solid;
+    top: 19px;
+    right: 10px;
+    overflow: hidden;
+}
+.gome-head .shop_car_none a{
+    position: relative;
+    float: right;
+    text-decoration: none;
+    padding: 5px 20px 0 45px;
+    line-height: 34px;
+    height: 34px;
+    width: 75px;
+}
+
+
+
+
+
+
+
+.category-box{
+    height: 40px;
+    border-bottom: 1px solid #dd00a7;
+    background: #f8f8f8;
+}
+.category-main{
+    height: 40px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.sidecategory{
+    position: relative;
+}
+.sidecategory h2{
+    width: 200px;
+    height: 38px;
+    background: #f1f1f1;
+    float: left;
+    opacity: .9;
+    line-height: 40px;
+    color: #585858;
+    font-family: 'Microsoft YaHei';
+    font-weight: 700;
+    font-size: 15px;
+    padding-left: 15px;
+}
+
