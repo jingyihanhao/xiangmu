@@ -20,6 +20,7 @@
 .gome-top li{
     float: left;
     position: relative;
+    box-sizing: border-box;
 }
 .gome-top li b{
     display: block;
@@ -51,6 +52,7 @@
     background-color: initial;
     display: inline-block;
     vertical-align: middle;
+    transform: rotate(0deg);
 }
 .gome-top li i{
     position: absolute;
@@ -71,8 +73,9 @@
     width: 290px;
     height: auto;
     border: 1px solid #e6e6e6;
-
-    top: 30px;
+    display: none;
+    top: -1px;
+    position: relative;
     background: #fff;
     left: 0;
     overflow: hidden;
@@ -88,6 +91,93 @@
     width: 55px;
     height: 55px;
     border-radius: 50px;
+}
+.gome-user #user-name div{
+    float: left;
+    font: 400 12px/20px Arial,"Microsoft YaHei";
+    padding: 0 0 0 15px;
+    width: 220px;
+}
+.gome-user #user-name p {
+    padding-top: 20px;
+    color: #888;
+    width: 100%;
+    line-height: 16px;
+    overflow: hidden;
+}
+.gome-user #user-name p a{
+    color: #006699;
+    text-decoration: none;
+}
+.gome-user #user-icon{
+    font: 400 12px/30px Arial,"Microsoft YaHei";
+    border-top: 1px solid #f3f3f3;
+    padding-top: 15px;
+    position: relative;
+}
+.gome-user #user-icon p{
+    color: #5E5E5E;
+}
+.gome-user #user-icon p a{
+    float: right;
+    color: #CCCCCC;
+    text-decoration: none;
+}
+#user-icon .left_btn{
+    position: absolute;
+    top: 60px;
+    width: 16px;
+    height: 29px;
+    cursor: pointer;
+    background: url('../../img/lh_img/ui.png') -60px -357px;
+    display: inline-block;
+}
+#user-icon .right_btn{
+    right: 0;
+    position: absolute;
+    top: 60px;
+    width: 16px;
+    height: 29px;
+    cursor: pointer;
+    background: url('../../img/lh_img/ui.png') -76px -357px;
+    display: inline-block;
+}
+
+#user-icon div{
+    visibility: visible;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    left: 0px;
+    width: 240px;
+    margin: 10px 25px 0;
+}
+#user-icon div ul{
+    position: relative;
+    list-style-type: none;
+    z-index: 1;
+    width: 480px;
+    overflow: hidden;
+}
+#user-icon div ul li{
+    width: 80px;
+    height: 70px;
+}
+#user-icon div ul li img{
+    text-align: center;
+    width: 40px;
+}
+#user-icon div ul li a{
+    display: block;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    color: #cccccc;
+}
+#user-icon div ul li a span{
+    display: block;
+    height: 30px;
+    margin-top: -10px;
 }
 #loginDiv-link b{
     padding: 0 20px 0 0;
@@ -115,6 +205,238 @@
 #gome-link i{
     display: none;
 }
+#gome-mygome{
+    width: 80px;
+}
+#gome-mygome .public-dropdown{
+    display: none;
+    font: 12px/24px Arial,"Microsoft YaHei";
+    background: #FFFFFF;
+    border: 1px solid #e6e6e6;
+    top: -1px;
+    position: relative;
+    overflow: hidden;
+    width: 260px;
+    height: auto;
+    color: #888888;
+}
+#gome-mygome .public-dropdown strong {
+    display: block;
+    font-weight: 900;
+    padding: 10px 10px 0;
+}
+#gome-mygome .public-dropdown strong a{
+    color: #006699;
+    text-decoration: none;
+}
+#gome-mygome .public-dropdown ul{
+}
+#gome-mygome .public-dropdown ul:nth-of-type(1) {
+    padding: 0 0 9px;
+    margin: 0 10px;
+    border-bottom: 1px solid #f3f3f3;
+    overflow: hidden;
+}
+#gome-mygome .public-dropdown ul:nth-of-type(1) li{
+    float: left;
+    width: 50%;
+    line-height: 25px;
+    height: 25px;
+}
+#gome-mygome .public-dropdown ul:nth-of-type(2) {
+    padding-left: 4px;
+}
+#gome-mygome .public-dropdown ul:nth-of-type(2) li{
+    float: left;
+    width: 63px;
+    text-align: center;
+    padding: 8px 0 10px;
+}
+#gome-mygome .public-dropdown ul:nth-of-type(2) li a{
+    text-decoration: none;
+    display: block;
+    line-height: 14px;
+    margin: 5px 0;
+    border-right: 1px solid #f3f3f3;
+    color: #888888;
+}
+#gome-mygome .public-dropdown ul:nth-of-type(2) li ins{
+    display: block;
+    vertical-align: middle;
+    color: #cdcdcd;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-decoration: none;
+}
+#gome-mygome .public-dropdown>p{
+    clear: both;
+    background: #f8f8f8;
+    padding: 10px;
+    overflow: hidden;
+}
+#gome-mygome .public-dropdown ul:nth-of-type(3){
+    background: #f8f8f8;
+    padding: 0 0 18px 10px;
+    height: 50px;
+    overflow: hidden;
+}
+
+#gome-mygome .public-dropdown ul:nth-of-type(3) li{
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin: 0 12px 10px 0;
+    background: url('../../img/lh_img/ui.png') 0 -397px;
+}
+#gome-enterprise{
+    width: 80px;
+}
+#gome-enterprise .public-dropdown span{
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: url("../../img/lh_img/ui.png")no-repeat 0 -1511px;
+}
+#gome-enterprise .public-dropdown{
+    display: none;
+    background: #FFFFFF;
+    border: 1px solid #e6e6e6;
+    top: -1px;
+    position: relative;
+    overflow: hidden;
+    padding: 15px;
+    font-size: 0;
+    width: 200px;
+    height: 200px;
+    right: 152px;
+}
+
+#gome-service{
+    width: 104px;
+}
+
+#gome-service .public-dropdown{
+    display: none;
+    background: #FFFFFF;
+    border: 1px solid #e6e6e6;
+    top: -1px;
+    position: relative;
+    overflow: hidden;
+    padding: 10px 15px;
+    width: 210px;
+    height: auto;
+    font: 700 12px/24px Arial,"Microsoft YaHei";
+}
+#gome-service .public-dropdown p{
+    color: #898989;
+}
+#gome-service .public-dropdown ul{
+    padding: 0 0 10px;
+    height: 48px;
+    overflow: hidden;
+}
+#gome-service .public-dropdown ul li{
+    float: left;
+    font: 12px/24px Arial,"Microsoft YaHei";
+    width: 33%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #888888;
+}
+#gome-service .public-dropdown a{
+    background: url("../../img/lh_img/kefu-white.png")no-repeat 30%;
+    background-size:16px 16px;
+    color: #fff;
+    background-color: #dd00a7;
+    text-align: center;
+    display: block;
+    line-height: 25px;
+    height: 25px;
+    cursor: pointer;
+    font-weight: 400;
+    margin-top: 4px;
+    text-decoration: none;
+}
+
+
+#gome-sitemap{
+    width: 80px;
+}
+#gome-sitemap .public-dropdown{
+    display: none;
+    background: #FFFFFF;
+    border: 1px solid #e6e6e6;
+    top: -1px;
+    position: relative;
+    overflow: hidden;
+    padding: 15px;
+    font-size: 0;
+    width: 1168px;
+    height: 170px;
+    right: 1016px;
+}
+#gome-sitemap .public-dropdown dl:nth-of-type(1){
+    border: none;
+}
+#gome-sitemap .public-dropdown dl{
+    float: left;
+    padding: 0 15px 0 40px;
+    border-left: 1px solid #f3f3f3;
+    margin: 15px 0;
+}
+#gome-sitemap .public-dropdown dl dt{
+    font: 700 14px/14px Arial,"Microsoft YaHei";
+    line-height: 16px;
+    margin: 0 0 14px;
+}
+#gome-sitemap .public-dropdown dl dd{
+    overflow: hidden;
+    min-height: 120px;
+}
+#gome-sitemap .public-dropdown dl dd ul{
+    float: left;
+    width: 75px;
+}
+#gome-sitemap .public-dropdown dl dd ul li{
+    width: 100%;
+    text-align: left;
+    font: 12px/24px Arial,"Microsoft YaHei";
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #888888;
+}
+#gome-sitemap .public-dropdown dl:nth-of-type(5) dd{
+    max-width: 64px;
+}
+
+#gome-phone{
+    width: 104px;
+}
+
+#gome-phone .public-dropdown{
+    display: none;
+    background: #FFFFFF;
+    border: 1px solid #e6e6e6;
+    top: -1px;
+    position: relative;
+    overflow: hidden;
+    padding: 15px;
+    font-size: 0;
+    width: 130px;
+    height: 170px;
+    right: 58px;
+}
+#gome-phone .public-dropdown span{
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: url("../../img/lh_img/ui.png")no-repeat 0 -799px;
+}
+
+
 
 #gome-service b em {
     transform: scale(0.9);
@@ -329,11 +651,19 @@
     width: 1200px;
     margin: 0 auto;
 }
+.category-main::after{
+    content: '';
+    display: block;
+    clear: both;
+}
 .sidecategory{
+    float: left;
     position: relative;
+    width: 200px;
+    height: auto;
 }
 .sidecategory h2{
-    width: 200px;
+    width: 185px;
     height: 38px;
     background: #f1f1f1;
     float: left;
@@ -345,4 +675,81 @@
     font-size: 15px;
     padding-left: 15px;
 }
+.sidecategory #navBox{
+    width: 200px;
+    height: 450px;
+    position: relative;
+    top: 41px;
+    z-index: 1;
+}
+.sidecategory #navBox ul{
+    width: 100%;
+    background: #333;
+    opacity: .7;
+    position: absolute;
+}
+.sidecategory #navBox ul li{
+    width: 100%;
+    margin-top: 1px;
+    height: 29px;
+    line-height: 29px;
+    overflow: hidden;
+}
+.sidecategory #navBox ul li h3{
+    position: relative;
+    padding-left: 15px;
+    height: 30px;
+    line-height: 30px;
+    width: 170px;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-left: 1px;
+}
+.sidecategory #navBox ul li h3 a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: 'Microsoft YaHei',arial;
+    font-weight: 200;
+    display: inline-block;
+    margin-right: 3px;
+}
+.sidecategory #navBox .subnav{
+    display: block;
+    background-color: #FFFFFF;
+    min-height: 448px;
+    max-height: 515px;
+    position: absolute;
+    top: 0;
+    left: 200px;
+    width: 1000px;
+    z-index: 1;
+}
 
+
+.category-main .main_nav{
+    float: left;
+    height: 38px;
+    width: 800px;
+    overflow: hidden;
+    position: relative;
+}
+.category-main .main_nav li{
+    position: relative;
+    float: left;
+    padding: 0 13px;
+    text-align: center;
+    line-height: 38px;
+    white-space: nowrap;
+}
+.category-main .main_nav li:nth-of-type(1) a {
+    color: #f5004b;
+}
+
+.category-main .main_nav li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    line-height: 40px;
+    font-family: 'Microsoft YaHei';
+}
