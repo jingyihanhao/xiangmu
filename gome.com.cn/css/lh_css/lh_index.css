@@ -3,3 +3,428 @@ body{
     min-width: 1200px;
     font: 12px/1.5 arial,"\65b0\5b8b\4f53";
 }
+.gm_main{
+    height: 450px;
+    width: 100%;
+    background: #eee;
+    position: relative;
+}
+.f_m{
+    width: 1200px;
+    height: 481px;
+    margin: 0 auto;
+}
+.f_m .f_m_l,.f_m .f_m_c{
+    width: 420px;
+    float: left;
+    margin-right: 10px;
+    height: 481px;
+}
+.f_m .f_m_r{
+    width: 340px;
+    float: right;
+    height: 481px;
+}
+.f_m div .f_m_title{
+    height: 60px;
+}
+.f_m .f_m_title h2{
+    background: url('../../img/lh_img/ui1.png') no-repeat;
+    width: 70px;
+    text-indent: -200px;
+    font-size: 18px;
+    color: #333;
+    margin-top: 28px;
+    font-weight: 400;
+    float: left;
+    overflow: hidden;
+}
+.f_m_l .f_m_title h2{
+    background-position: -169px -100px;
+}
+.f_m_c .f_m_title h2{
+    background-position: -169px -132px;
+}
+.f_m_r .f_m_title h2{
+    background-position: -169px -164px;
+}
+
+.f_m .f_m_title span {
+    display: block;
+    float: left;
+    font-size: 20px;
+    color: #ccc;
+    padding: 27px 0 0 9px;
+    font-family: Arial;
+}
+.f_m .f_inner{
+    border: 1px solid #e6e6e6;
+    width: 418px;
+    height: 419px;
+    background: #fff;
+    overflow: hidden;
+}
+.f_m .f_m_r .f_inner{
+    width: 338px;
+}
+.f_inner a:nth-of-type(1) img{
+    display: block;
+    width: 219px;
+    height: 419px;
+}
+.f_inner a:nth-of-type(2) img{
+    display: block;
+    width: 199px;
+    height: 209px;
+}
+.f_inner a{
+    display: block;
+    float: left;
+}
+
+.f_inner a:nth-of-type(2){
+    border-bottom: 1px dashed #eee;
+    display: block;
+    float: left;
+}
+.f_inner .f_inner_left{
+    width: 219px;
+    height: 420px;
+    float: left;
+}
+
+.f_inner .f_inner_left a{
+    display: block;
+    float: left;
+}
+.f_inner .f_inner_left a:nth-of-type(1){
+    border-bottom: 1px dashed #eee;
+}
+.f_inner .f_inner_left a img{
+    display: block;
+    width: 219px;
+    height: 209px;
+}
+.f_inner .f_inner_right{
+    border-left: 1px #eee solid;
+    width: 118px;
+    float: right;
+}
+.f_inner .f_inner_right a{
+    display: block;
+    height: 59px;
+    width: 118px;
+    text-align: center;
+    border-bottom: 1px #eee dashed;
+    opacity: .9;
+}
+.f_inner .f_inner_right a:nth-last-of-type(1){
+    border-bottom: none;
+}
+.f_inner .f_inner_right a img{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    margin-top: 15px;
+}
+.quan_out{
+    margin: 0 auto;
+    width: 1200px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.quan_out>div{
+    float: left;
+}
+.quan_out .quan_f a img{
+    width: 122px;
+    height: 110px;
+}
+.quan_out .quan_s {
+    width: 1035px;
+    float: left;
+}
+.quan_out .quan_s li{
+    width: 207px;
+    height: 110px;
+    overflow: hidden;
+    float: left;
+}
+.quan_out .quan_s li a{
+    border-right: 1px dashed #ddd;
+    display: inline-block;
+    width: 206px;
+    height: 110px;
+    overflow: hidden;
+}
+.quan_out .quan_s li:nth-last-of-type(1) a{
+    border: none;
+}
+.gm_box{
+    font-family: Arial,"Microsoft Yahei";
+    width: 1200px;
+    margin: 0 auto;
+}
+.gm_title{
+    height: 60px;
+    width: 100%;
+    overflow: hidden;
+}
+.gm_title h2{
+    font-size: 18px;
+    color: #333;
+    margin-top: 28px;
+    font-weight: 400;
+    float: left;
+}
+.gm_title span{
+    display: block;
+    float: left;
+    font-size: 20px;
+    color: #ccc;
+    padding: 27px 0 0 9px;
+    font-family: Arial;
+}
+.gm_finance .gf_c{
+    height: 230px;
+    width: 1197px;
+    border-right: 1px solid #e6e6e6;
+}
+.gm_finance .gf_c .f_m_l{
+    width: 420px;
+    height: 230px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.gm_finance .gf_c .f_m_l b{
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    font-size: 14px;
+    padding: 0 13px;
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    bottom: 48px;
+    font-weight: 400;
+    z-index: 1;
+    border-radius: 2px;
+    background: #b88828;
+}
+.gm_finance .gf_c .f_m_l b a{
+    color: #fff;
+    display: inline-block;
+    height: 21px;
+    float: left;
+    text-decoration: none;
+}
+.gm_finance .gf_c .f_m_l b span{
+    display: inline-block;
+    margin-left: 10px;
+    float: left;
+    width: 7px;
+    height: 11px;
+    margin-top: 9px;
+    background: url('../../img/lh_img/ui1.png') -126px -52px no-repeat;
+}
+
+.gm_finance .gf_c .f_m_l a img{
+    display: block;
+    width: 420px;
+    height: 230px;
+}
+
+.gm_finance .gf_c .f_m_r{
+    width: 777px;
+    float: left;
+    height: 228px;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+.gm_finance .gf_c .f_m_r ul li{
+    width: 194px;
+    display: block;
+    float: left;
+    height: 228px;
+
+}
+.gm_finance .gf_c .f_m_r ul li a img{
+    display: inline-block;
+    width: 194px;
+    height: 228px;
+    border-left: 1px dashed #eee;
+}
+.gm_guess .gg_c{
+    width: 1198px;
+    height: 264px;
+    border: 1px solid #eee;
+    position: relative;
+    overflow: hidden;
+}
+.gm_guess .gg_c li{
+    width: 198px;
+    height: 224px;
+    margin-top: 20px;
+    float: left;
+    border-right: 1px dashed #eee;
+}
+.gm_guess .gg_c li a{
+    text-decoration: none;
+    height: 210px;
+    padding-top: 15px;
+    display: block;
+}
+.gm_guess .gg_c li a img{
+    margin-left: 40px;
+    display: block;
+    height: 120px;
+    width: 120px;
+}
+.gm_guess .gg_c li a p:nth-of-type(1){
+    width: 167px;
+    height: 36px;
+    margin: 32px 0 0 20px;
+    cursor: pointer;
+    overflow: hidden;
+    color: #5e5e5e;
+}
+.gm_guess .gg_c li a p:nth-of-type(2){
+    color: #ff0027;
+    line-height: 16px;
+    height: 16px;
+    margin: 8px 0 0 20px;
+    font-size: 16px;
+}
+.gm_hottopic{
+    margin-top: 40px;
+    background: #f7f7f7;
+    width: 100%;
+    padding: 20px 0 30px;
+    font-family: 'Microsoft YaHei';
+    overflow: hidden;
+}
+.gm_hottopic .h_m_l{
+    width: 954px;
+    overflow: hidden;
+    float: left;
+}
+.gm_hottopic .h_m_r{
+    width: 246px;
+    float: right;
+}
+.gm_hottopic h3{
+    font-size: 18px;
+    line-height: 38px;
+    color: #333;
+}
+.gm_hottopic h3 a{
+    font-size: 12px;
+    margin-right: 10px;
+    line-height: 24px;
+    margin-top: 12px;
+    color: #888;
+    float: right;
+    text-decoration: none;
+}
+.gm_hottopic .h_m_l ul li{
+     float: left;
+     background: #fff;
+     padding-bottom: 20px;
+     width: 306px;
+     margin-right: 12px;
+}
+.gm_hottopic .h_m_l ul li img{
+    width: 306px;
+    height: 180px;
+    overflow: hidden;
+    position: relative;
+}
+.gm_hottopic .h_m_l ul li .hot_title{
+    padding: 0 20px;
+    font-size: 16px;
+    line-height: 28px;
+    height: 28px;
+    margin: 14px 0 7px;
+    overflow: hidden;
+    word-break: break-all;
+}
+.gm_hottopic .h_m_l ul li .hot_center{
+    padding: 0 20px;
+    font-size: 12px;
+    line-height: 18px;
+    height: 54px;
+    margin-bottom: 17px;
+    overflow: hidden;
+    color: #5e5e5e;
+}
+.gm_hottopic .h_m_l ul li .hot_btn{
+    padding: 0 20px;
+}
+.gm_hottopic .hot_btn span{
+    float: left;
+    margin-right: 38px;
+    color: #5e5e5e;
+    cursor: default;
+}
+.gm_hottopic .hot_btn span:nth-of-type(1){
+    padding-left: 21px;
+    background: url('../../img/lh_img/love.png') no-repeat 0 50%;
+}
+.gm_hottopic .hot_btn span:nth-of-type(2){
+    padding-left: 23px;
+    background: url('../../img/lh_img/discuss.png') no-repeat 0 50%;
+}
+.gm_hottopic .h_m_r .interest_c{
+    height: 328px;
+    padding: 15px 15px 0;
+    background: #fff;
+    overflow: hidden;
+}
+.gm_hottopic .h_m_r .interest_c .list_txt{
+    line-height: 18px;
+    padding: 15px 0 12px;
+    border-bottom: 1px dashed #e6e6e6;
+    margin-bottom: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.gm_hottopic .h_m_r .interest_c .list_txt .tag{
+    float: left;
+    background: #ff7612;
+    border-radius: 2px;
+    padding: 0 3px;
+    font-size: 12px;
+    color: #fff;
+    vertical-align: 1px;
+}
+.gm_hottopic .h_m_r .interest_c .list_txt>span a{
+    float: left;
+    font-size: 14px;
+    margin: 0 15px 0 5px;
+    color: #333;
+    text-decoration: none;
+}
+
+.gm_hottopic .h_m_r .interest_c .list_txt>span{
+    color: #a5a5a5;
+    font-size: 12px;
+    line-height: 18px;
+    overflow: hidden;
+    margin-bottom: 3px;
+    display: block;
+}
+.gm_hottopic .h_m_r .interest_c p{
+    word-break: break-all;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 22px;
+    color: #5e5e5e;
+    height: 22px;
+    overflow: hidden;
+}
+
+
+
+
+
